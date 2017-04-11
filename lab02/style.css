@@ -1,0 +1,102 @@
+body{
+	background-image:url(bg.jpg);
+}
+h2,h3{
+		alignment-adjust:central;
+		border-bottom: 1px solid black;
+		border-bottom-width:thin;
+		margin-left:50px;
+		color:#FFA448;
+		
+}
+h2:hover , h3:hover{
+	color:#309;
+	}
+.para1{
+
+	border:black 2px solid;
+	border-radius:10px;
+	background-image:url(blockbg.jpg);
+	padding:20px 20px 20px 20px;
+}
+.para1:hover{
+	border:black 2px solid;
+	background-image:url(blockbg.jpg);
+	border-radius:50px;
+	padding:20px 20px 20px 20px;
+	
+}
+.para3{
+	border:black 2px solid;
+	border-radius:10px;
+	background-image:url(blockbg.jpg);
+	padding:20px 20px 20px 20px;
+}
+.para3:hover{
+-webkit-transform:scale(1.5);
+transform:scale(1.2);
+	}
+.para2{
+	border:black 2px solid;
+	border-radius:10px;
+	margin-top:20px;
+	background-image:url(blockbg1.jpg);
+	padding:20px 20px 20px 20px;
+	color:#FFF;
+}
+.fixedHead{
+	color:#F60;
+	position:fixed;
+	top:10px;
+	left:10px;
+	}
+.leftside{
+	position: absolute;
+	top:50px;
+	left:10px;
+	width:190px;
+	}
+.block1{
+	margin:auto auto 200px 200px;
+	}
+h1{
+	color:#F60;}
+h1:hover{
+
+	text-shadow: 2px 2px 8px #FF0000;
+	}
+.mySlides {display:none;}
+
+
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation 1s infinite;
+   -moz-animation: flickerAnimation 1s infinite;
+   -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
+
+
+
+
+

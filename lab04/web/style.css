@@ -1,0 +1,56 @@
+body {
+	background-color: lightblue;
+	height: 1%;
+	width: auto;
+	display: block;
+	clear: both;
+	color: #555555;
+	padding: 1em 1em;
+	margin: auto 40px auto 40px;
+	font-family: "MS Serif", "New York", serif;
+
+}
+body.child{
+		font-family: "Comic Sans MS", cursive;
+	background-image:url(kid.jpg);
+
+	}
+body.man{
+	     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+		 background-image:url(46955056-ironman-wallpaper.jpg)
+
+	}
+body.woman{
+	background-image:url(women.jpg);
+				 font-family: "Courier 10 Pitch", Courier, monospace;
+
+	}
+
+h1 {
+	color:#FFF;
+	text-align: center;
+}
+h1.child{
+	color: red;
+	}
+h1.man{
+		color: lightblue;
+
+	}
+h1.woman{
+		color: pink;
+
+	}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+fieldset{
+	background-color:rgba(232,232,232,0.8);
+	font:bold;
+	}
+div{
+	background-color:rgba(232,232,232,0.8);
+	margin-top:50px;
+	}
+	

@@ -1,0 +1,22 @@
+body { 
+font-family: Orator Std;
+/*font-family:Segoe Print;*/
+font-size: 20px;
+margin-top: 50px;
+color: #333;
+background-image: url(bg2.png);
+background-attachment:fixed;
+background-position:center;
+text-align: center;
+}
+/*
+body { 
+font-family: Orator Std;
+font-size: 20px;
+margin-top: 100px;
+color: #333;
+background-image: url(bg2.png);
+background-attachment:fixed;
+background-position:center;
+text-align: center;
+}*/

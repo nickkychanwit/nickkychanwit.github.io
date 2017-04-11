@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.button1 {
+	color: #F00;
+}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+p{
+	margin-left:20px;
+ }
+</style>
+
+</head>
+<body onload=""  bgcolor="#D2D2D2">
+<div>
+<p ><strong>FirstName</strong> :<br>
+  <input id="fname" type="text" size="30"><br>
+  <strong>LastName</strong> :<br>
+  <input id="lname"  type="text" size="30"><br>
+<p>
+  <strong>Address</strong><br>
+  House number : <input id="hNumber" type="text" size="10\"><br>
+  Street : <input type="text" id="street"><br>
+  City   : <input type="text" id="city"><br>
+  Province : <input type="text" id="province"><br>
+  Zipcode : <input id="zipcode" type="number" maxlength="5" required max="99999" min="00000">
+</p> 
+  <p><strong>Phone number :</strong> 
+  + <input type="number" id="p1number" maxlength="4"> 
+  - <input type="number" id="p2number" maxlength="3"> 
+  -  <input type="number" id="p3number" maxlength="4"><br>
+  
+<strong>Cell phone number:</strong> 
++ <input type="number" id="c1number" maxlength="4"> 
+- <input type="number" id="c2number" maxlength="3"> 
+-  <input type="number" id="c3number" maxlength="4" >  </p>
+
+  <p><strong>Birthday:</strong> 
+  <input type="number"  id="day" maxlength="2"> / 
+  <input type="number" id="mount" maxlength="2"> / 
+  <input type="number" id="year" maxlength="4"></p>
+  
+  <p> <strong>Citizenship number:</strong> <input type="text" id="citizenshipnumber" maxlength="13"></p>
+  <p><strong>Zodiac Sign</strong> <input type="text" id="zodiacsign" size="15"></p>
+   <p><strong>Zodiac Year</strong> <input type="text" id="zodiacyear" size="15"></p>
+<p><strong>Birth Day of Week: <input id="bdofweek"></input>
+  </p>
+  <p align="center">
+  <button onclick="cancel()" ><strong>cancel</strong></button> 
+  <button onclick="save()"><strong>save</strong></button> 
+  <button onclick="submitdata()"><strong>submit</strong></button>
+  </p>
+ </p>
+ </div>
+
+
+<script src="jscript.js"></script>
+</body>
+</html>

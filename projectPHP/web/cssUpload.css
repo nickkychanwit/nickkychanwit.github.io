@@ -1,0 +1,18 @@
+body { 
+font-family:Orator Std;
+/*font-family:Segoe Print;*/
+font-size: 20px;
+margin-top: 50px;
+color: #333;
+background-image: url(tumblr_static.jpg);
+background-attachment:fixed;
+background-position:center;
+text-align: center;
+}
+
+#form1, #form2, #form3{
+padding: 20px 20px 20px 20px;
+margin-right: 300px;
+margin-left: 375px;
+border:darkslategrey 2px solid;	
+}

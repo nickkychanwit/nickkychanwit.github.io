@@ -1,0 +1,11 @@
+body { 
+font-family: Orator Std;
+/*font-family:Segoe Print;*/
+font-size: 20px;
+font-style: bold;
+color: #333;
+background-image: url(bg2.png);
+background-attachment:fixed;
+background-position:center;
+text-align: center;
+}
